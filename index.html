@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="gMap">
+<head>
+<title>Simle Map</title>
+<meta name="description" content="Simple Map">
+<meta name="keywords" content="ng-map,AngularJS,center">
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/ngmap/build/scripts/ng-map.min.js"></script>
+<script src="http://maps.google.com/maps/api/js"></script>
+<script src="app.js"></script>
+</head>
+<body ng-controller="gMapCtrl">
+	<div map-lazy-load="https://maps.google.com/maps/api/js">
+	<ng-map center="{{Config.COORDENADAS_CIUDAD}}" zoom="3"></ng-map>
+	</div>
+</body>
+</html>

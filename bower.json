@@ -1,0 +1,27 @@
+{
+  "name": "Gmap Test",
+  "version": "0.0.0",
+  "authors": [
+    "Alejandro Martinez <alejandro@estilo.com.ar>"
+  ],
+  "description": "Jugando con la api de Google Maps",
+  "main": "app.js",
+  "keywords": [
+    "google",
+    "maps",
+    "api",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.6",
+    "ngmap": "~1.17.3"
+  }
+}
